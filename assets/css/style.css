@@ -1,0 +1,66 @@
+.container {
+    padding: 5% 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 10%;
+}
+
+section.satu {
+    background-color: lightblue;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+article.satu {
+    text-decoration: none;
+    color: black;
+}
+
+article.satu h1 {
+    font-size: 30px;
+}
+
+section.dua {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+
+}
+
+
+section.tiga {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+
+}
+
+section.empat {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+section.lima {
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+section.enam {
+    background-color: green;
+    background-size: cover;
+    height: 100vh;
+}
