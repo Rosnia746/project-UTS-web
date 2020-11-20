@@ -1,5 +1,10 @@
 .container {
-    padding: 5% 10%;
+    margin: 2% 10%;
+}
+
+section.satu {
+    background-color: dodgerblue;
+    height: 100vh;
 }
 
 .header {
@@ -8,59 +13,129 @@
 }
 
 .header img {
-    width: 10%;
+    width: 170px;
+    height: 110px;
 }
 
-section.satu {
-    background-color: lightblue;
-    background-size: cover;
-    height: 100vh;
+img.search {
+    width: 20px;
+}
+
+.primary-menu {
+    display: flex;
 
 }
 
-article.satu {
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-article.satu h1 {
-    font-size: 30px;
+.text h1 {
+    font-size: 50px;
+    color: blanchedalmond;
 }
 
-section.dua {
-    background-color: whitesmoke;
-    background-size: cover;
-    height: 100vh;
+
+
+.text p {
+    text-align: center;
+}
+
+.text p a {
+    padding: 15px 30px;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+main {
     display: flex;
-
+    border-bottom: 1px solid grey;
 }
 
-
-section.tiga {
-    background-color: whitesmoke;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-
+.content,
+.img {
+    width: 50%;
+    padding: 20px;
 }
 
-section.empat {
-    background-color: whitesmoke;
-    background-size: cover;
-    height: 100vh;
-
+.img img {
+    width: 80%;
 }
 
-section.lima {
-    background-color: whitesmoke;
-    background-size: cover;
-    height: 100vh;
-
+h1 {
+    text-align: center;
 }
+
+section.empat img {
+    width: 50%;
+}
+
+section.lima h2 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-radius: 100px;
+    width: 100%;
+}
+
 
 
 section.enam {
     background-color: green;
-    background-size: cover;
     height: 100vh;
+
+}
+
+section.enam p {
+    text-align: center;
+}
+
+.empat ul a {
+    color: black;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .kirifooter {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.footer .kosong {
+    width: 30%;
+}
+
+main.tujuh img {
+    width: 200px;
+    height: 100px;
+}
+
+.kirifooter,
+.kananfooter {
+    width: 45%;
+}
+
+.img-footer {
+    position: absolute;
+
+}
+
+button {
+    margin-top: 50px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-radius: 100px;
+    padding: 6px;
 }
